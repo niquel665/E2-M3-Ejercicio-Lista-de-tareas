@@ -52,6 +52,7 @@ Elige una opción:
             break;
 
         case "3":
+            alert(listaDeTareas.map(t => t.texto).join("\n"));
             console.clear(); //limpia la consola para que se vea solo la lista de tareas
             console.log("--- LISTA DE TAREAS ---");
             for (let i = 0; i < listaDeTareas.length; i++) {
@@ -62,7 +63,6 @@ Elige una opción:
                     console.log(`${i + 1}. ${tarea.texto}`);
                 }
             }
-            alert("Lista mostrada en consola.");
             break;
 
         case "4":
