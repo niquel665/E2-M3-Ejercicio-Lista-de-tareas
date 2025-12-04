@@ -9,7 +9,7 @@ GESTOR DE TAREAS
 -------------------------
 1. Agregar tarea
 2. Marcar tarea como completada
-3. Mostrar lista de tareas
+3. Mostrar lista de tareas y
 4. Salir
 
 Elige una opción:
